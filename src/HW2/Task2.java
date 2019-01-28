@@ -9,11 +9,11 @@ public class Task2 {
         int fibonacci = f.nextInt();
         int prelastNum = 0;
         int lastNum = 1;
-        while (lastNum<=fibonacci){
-            lastNum+=prelastNum;
-            prelastNum = lastNum-prelastNum;
-            System.out.print(prelastNum+" ");
+        while (lastNum <= fibonacci) {
+            lastNum += prelastNum;
+            prelastNum = lastNum - prelastNum;
+            System.out.print(prelastNum + " ");
         }
     }
-    
+
 }

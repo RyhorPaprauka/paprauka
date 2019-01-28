@@ -9,14 +9,15 @@ public class Task2Rec {
         int fibonacci = f.nextInt();
         int prelastNum = 0;
         int lastNum = 1;
-        fibo( lastNum, prelastNum,fibonacci);
+        fiboRec(lastNum, prelastNum, fibonacci);
     }
-    public static int fibo (int lastNum,int prelastNum, int fibonacci){
-        if (lastNum>=fibonacci){
+
+    public static int fiboRec(int lastNum, int prelastNum, int fibonacci) {
+        if (lastNum >= fibonacci) {
             return 0;
-        }else {
-            System.out.print(lastNum+" ");
-           return fibo((lastNum+=prelastNum),(prelastNum = lastNum-prelastNum),fibonacci);
+        } else {
+            System.out.print(lastNum + " ");
+            return fiboRec((lastNum += prelastNum), (prelastNum = lastNum - prelastNum), fibonacci);
         }
     }
 
