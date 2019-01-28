@@ -25,35 +25,35 @@ public class Task2 {
 
 
         if ((a + c) <= e) {
-            if (b <= f&&d <=f) {
+            if (b <= f && d <= f) {
                 System.out.println("Дома помещаются");
             }
         } else if ((a + d) <= e) {
-            if (b<= f&&c<=f) {
+            if (b <= f && c <= f) {
                 System.out.println("Дома помещаются");
             }
         } else if ((b + c) <= e) {
-            if (a<=f&&d<=f) {
+            if (a <= f && d <= f) {
                 System.out.println("Дома помещаются");
             }
         } else if ((b + d) <= e) {
-            if (a<= f&&c<=f) {
+            if (a <= f && c <= f) {
                 System.out.println("Дома помещаются");
             }
         } else if ((a + c) <= f) {
-            if (b<= e&&d<=e) {
+            if (b <= e && d <= e) {
                 System.out.println("Дома помещаются");
             }
         } else if ((a + d) <= f) {
-            if (b <=e&&c <=e) {
+            if (b <= e && c <= e) {
                 System.out.println("Дома помещаются");
             }
         } else if ((b + c) <= f) {
-            if (a<= e&&d<=e) {
+            if (a <= e && d <= e) {
                 System.out.println("Дома помещаются");
             }
         } else if ((b + d) <= f) {
-            if (a<= e&&c<=e) {
+            if (a <= e && c <= e) {
                 System.out.println("Дома помещаются");
             }
         } else {
